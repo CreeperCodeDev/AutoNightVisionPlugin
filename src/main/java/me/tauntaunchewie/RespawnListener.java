@@ -28,6 +28,10 @@ public class RespawnListener implements Listener {
         }
     }
 
+    /**
+     * Pass along reference to plugin so we can use a Bukkit scheduler delay above
+     * @param instance
+     */
     public RespawnListener(AutoNightVisionPlugin instance) {
         plugin = instance;
     }
