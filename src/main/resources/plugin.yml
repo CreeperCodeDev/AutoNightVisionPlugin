@@ -1,0 +1,19 @@
+name: AutoNightVisionPlugin
+version: 1.0
+main: me.tauntaunchewie.AutoNightVisionPlugin
+api-version: 1.18
+
+commands:
+  nightvision:
+    description: Auto add night vision to player on spawn
+    usage: /<command>
+    permission: nightvision.seeplugin
+    permission-message: You do not have permission to execute that command.
+
+permissions:
+  nightvision.seeplugin:
+    description: Basic ability to see the command
+    default: op
+  nightvision.set:
+    description: Allows player to set the duration of the night vision
+    default: op
