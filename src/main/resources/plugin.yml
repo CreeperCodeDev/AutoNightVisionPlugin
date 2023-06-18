@@ -1,6 +1,6 @@
 name: AutoNightVisionPlugin
-version: 1.0
-main: me.tauntaunchewie.AutoNightVisionPlugin
+version: 1.0.1
+main: me.tauntaunchewie.autonightvisionplugin.AutoNightVisionPlugin
 api-version: 1.18
 
 commands:
