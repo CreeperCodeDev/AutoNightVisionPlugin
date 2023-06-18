@@ -1,6 +1,6 @@
-package me.tauntaunchewie;
+package me.tauntaunchewie.autonightvisionplugin;
 
-import me.tauntaunchewie.utils.AutoNightVisionUtils;
+import me.tauntaunchewie.autonightvisionplugin.utils.AutoNightVisionUtils;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class AutoNightVisionPlugin extends JavaPlugin {

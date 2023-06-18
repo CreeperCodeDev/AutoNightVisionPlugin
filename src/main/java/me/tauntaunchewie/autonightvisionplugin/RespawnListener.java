@@ -1,13 +1,11 @@
-package me.tauntaunchewie;
+package me.tauntaunchewie.autonightvisionplugin;
 
-import me.tauntaunchewie.utils.AutoNightVisionUtils;
+import me.tauntaunchewie.autonightvisionplugin.utils.AutoNightVisionUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerRespawnEvent;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
 
 public class RespawnListener implements Listener {
     private static AutoNightVisionPlugin plugin;

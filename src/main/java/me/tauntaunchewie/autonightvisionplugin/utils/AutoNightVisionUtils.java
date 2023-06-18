@@ -1,6 +1,6 @@
-package me.tauntaunchewie.utils;
+package me.tauntaunchewie.autonightvisionplugin.utils;
 
-import me.tauntaunchewie.AutoNightVisionPlugin;
+import me.tauntaunchewie.autonightvisionplugin.AutoNightVisionPlugin;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
