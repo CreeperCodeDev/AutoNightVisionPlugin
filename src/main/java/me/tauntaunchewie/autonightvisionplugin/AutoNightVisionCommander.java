@@ -1,7 +1,8 @@
-package me.tauntaunchewie;
+package me.tauntaunchewie.autonightvisionplugin;
 
-import me.tauntaunchewie.utils.AutoNightVisionUtils;
+import me.tauntaunchewie.autonightvisionplugin.utils.AutoNightVisionUtils;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -51,7 +52,7 @@ public class AutoNightVisionCommander implements CommandExecutor {
                                     AutoNightVisionUtils.setNightVisionToPlayer(target, turnOnNightVision);
 
                                     player.sendMessage(target.getDisplayName() + " Night Vision has been " + (turnOnNightVision ? "enabled" : "removed"));
-                                    target.sendMessage(player.getDisplayName() + " has " + (turnOnNightVision ? "given you" : "removed your") + " Night Vision");
+                                    target.sendMessage(ChatColor.YELLOW + player.getDisplayName() + " has " + (turnOnNightVision ? "given you" : "removed your") + " Night Vision");
                                 }
                             } else {
                                 // Set for individual
@@ -62,7 +63,7 @@ public class AutoNightVisionCommander implements CommandExecutor {
                                     AutoNightVisionUtils.setNightVisionToPlayer(target, turnOnNightVision);
 
                                     player.sendMessage(target.getDisplayName() + " Night Vision has been " + (turnOnNightVision ? "enabled" : "removed"));
-                                    target.sendMessage(player.getDisplayName() + " has " + (turnOnNightVision ? "given you" : "removed your") + " Night Vision");
+                                    target.sendMessage(ChatColor.YELLOW + player.getDisplayName() + " has " + (turnOnNightVision ? "given you" : "removed your") + " Night Vision");
                                 } else {
                                     player.sendMessage("This player is not currently on the server");
                                 }
